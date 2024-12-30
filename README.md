@@ -11,6 +11,10 @@
   </a>
 </div>
 
+<div align="left">
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=GabrielProzin&theme=dark" alt="GitHub Streak" /></a>
+</div>
+
 ### Tecnologias que eu uso no meu dia a dia :)
 
 <div style="display: flex; gap: 10px;"><br/>
@@ -18,7 +22,6 @@
     <img align="center" alt="css3" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">  
     <img align="center" alt="javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
     <img align="center" alt="flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
-    <img align="center" alt="dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
 </div>
 
 Apaixonado por tecnologia, por atingir positivamente a vida das pessoas :)
