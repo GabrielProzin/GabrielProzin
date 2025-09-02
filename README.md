@@ -9,7 +9,7 @@
 ---
 
 💡 **Sobre mim:**  
-Sou apaixonado por tecnologia e desenvolvimento de software, sempre buscando aprender e evoluir. Gosto de trabalhar com **desenvolvimento web/backend** e explorar **novas tecnologias** para criar soluções eficientes. 🚀
+Estudante de Análise e Desenvolvimento de Sistemas (conclusão em 2025), com experiência prática no desenvolvimento de APIs RESTful, sistemas web e aplicações em nuvem. Foco em Node.js, TypeScript, Express, PostgreSQL e Prisma, além de vivência com React e Next.js. Busco constantemente aprimorar minhas habilidades para entregar soluções seguras, escaláveis e de impacto. 🚀
 
 ---
 
