@@ -9,7 +9,22 @@
 ---
 
 💡 **Sobre mim:**  
-Estudante de Análise e Desenvolvimento de Sistemas (conclusão em 2025), com experiência prática no desenvolvimento de APIs RESTful, sistemas web e aplicações em nuvem. Foco em Node.js, TypeScript, Express, PostgreSQL e Prisma, além de vivência com React e Next.js. Busco constantemente aprimorar minhas habilidades para entregar soluções seguras, escaláveis e de impacto. 🚀
+
+Sou graduado em Análise e Desenvolvimento de Sistemas e atualmente curso pós-graduação em Ciência de Dados.
+
+Tenho experiência prática com desenvolvimento backend e manipulação de dados, atuando com SQL para extração, análise e otimização de consultas em bancos de dados relacionais. Também trabalho com integração de dados estruturados e semi-estruturados, além de apoiar na análise de inconsistências e melhoria da qualidade dos dados.
+
+Minha experiência com desenvolvimento de sistemas me permite compreender todo o ciclo dos dados dentro das aplicações, desde a coleta e armazenamento até a análise e geração de insights para apoio à tomada de decisão.
+
+Atualmente estou aprofundando meus conhecimentos em:
+- SQL e bancos de dados relacionais
+- Análise e manipulação de dados com Python
+- Visualização de dados com Power BI
+- Machine Learning e análise estatística
+
+Também possuo experiência com desenvolvimento backend utilizando Node.js, APIs REST e aplicações web.
+
+🎯 Meu objetivo é atuar na área de dados, aplicando programação e análise para construir soluções orientadas por dados e apoiar decisões estratégicas.
 
 ---
 
