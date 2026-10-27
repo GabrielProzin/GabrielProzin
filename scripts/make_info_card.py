@@ -21,7 +21,7 @@ LINHAS = [
     ("Portfólio", "gmendes.vercel.app"),
 ]
 PALETA = ["#0e4441", "#11706a", "#1fa196", "#4fd8cb", "#febc2e", "#ff5f57", "#8b949e", "#e6edf3"]
-LARGURA, ALTURA = 500, 445
+LARGURA, ALTURA = 500, 490
 ESTATICO = os.environ.get("STATIC") == "1"
 
 
@@ -56,7 +56,7 @@ def svg() -> str:
     for chave, valor in LINHAS:
         val = valor.replace("&", "&amp;")
         p.append(linha(f'<text x="{x}" y="{y}" class="k">{chave}</text><text x="{x + 98}" y="{y}" class="v">{val}</text>'))
-        y += 24
+        y += 27
     y += 6
     blocos = "".join(f'<rect x="{x + i * 26}" y="{y}" width="22" height="14" rx="3" fill="{c}"/>' for i, c in enumerate(PALETA))
     p.append(linha(blocos))
