@@ -1,6 +1,6 @@
 """Converte a foto preparada (source-prepped.png) num retrato ASCII em SVG que se digita linha por linha.
 
-Uso: python scripts/make_ascii_svg.py [source-prepped.png]   (gera assets/retrato.svg)
+Uso: python scripts/make_ascii_svg.py [source-prepped.png]   (gera assets/retrato-pb.svg)
 A animação é SMIL dentro do próprio SVG: o GitHub não roda JavaScript no README, mas toca a animação do SVG.
 """
 import colorsys
@@ -136,4 +136,4 @@ def svg(linhas: list[str]) -> str:
 
 if __name__ == "__main__":
     origem = sys.argv[1] if len(sys.argv) > 1 else "source-prepped.png"
-    salvar(Path("assets/retrato.svg"), svg(grade(origem)))
+    salvar(Path("assets/retrato-pb.svg"), svg(grade(origem)))

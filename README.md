@@ -8,7 +8,7 @@
 <h3><code>gabriel@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./assets/retrato.svg" width="370" alt="Retrato do Gabriel em ASCII" /></td>
+    <td valign="top"><img src="./assets/retrato-pb.svg" width="370" alt="Retrato do Gabriel em ASCII" /></td>
     <td valign="top"><img src="./assets/cartao.svg" width="490" alt="Cientista de Dados em Goiânia. Python, SQL, Airflow, BigQuery e Power BI" /></td>
   </tr>
 </table>
