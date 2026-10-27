@@ -24,7 +24,7 @@ GAMA = 0.75  # < 1 deixa as partes iluminadas mais cheias
 BORDA = 0.45  # quanto os contornos pesam
 LIMIAR = 0.34  # abaixo disso (sombras, cabelo, barba) fica sem caractere, como um estêncil
 ESTATICO = os.environ.get("STATIC") == "1"
-MONOCROMATICO = os.environ.get("MONO") == "1"
+MONOCROMATICO = os.environ.get("COLORIDO") != "1"  # preto e branco; COLORIDO=1 puxa um tom da foto
 
 
 def _tom(rgb: np.ndarray, v: float) -> str:
