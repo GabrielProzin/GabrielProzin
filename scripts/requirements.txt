@@ -1,0 +1,9 @@
+# usados todo dia pelo GitHub Actions (calendário)
+requests==2.32.3
+beautifulsoup4==4.12.3
+# só para refazer o retrato quando trocar a foto (roda na sua máquina)
+pillow
+numpy
+opencv-python
+rembg
+onnxruntime

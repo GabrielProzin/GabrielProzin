@@ -1,0 +1,37 @@
+name: Atualizar o perfil
+
+"on":
+  schedule:
+    - cron: "17 9 * * *" # todo dia, ~06:17 em Brasília
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/atualizar-perfil.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-perfil
+  cancel-in-progress: false
+
+jobs:
+  calendario:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 beautifulsoup4==4.12.3
+      - name: Ler as contribuições públicas
+        run: python scripts/fetch_contributions.py
+      - name: Desenhar o calendário
+        run: python scripts/render_heatmap_svg.py
+      - name: Salvar se mudou
+        run: |
+          git add data/contributions.json assets/contribuicoes.svg
+          if git diff --cached --quiet; then echo "Nada mudou."; exit 0; fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Calendário de contribuições atualizado [skip ci]"
+          git push

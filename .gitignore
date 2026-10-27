@@ -1,0 +1,6 @@
+# a foto original e a preparada ficam fora do repositório; só o retrato em ASCII é publicado
+*.jpg
+*.jpeg
+source-prepped.png
+__pycache__/
+.venv/

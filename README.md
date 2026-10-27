@@ -1,60 +1,52 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FFFF00&height=120&section=header" width="100%">
+<div align="center">
 
-# 👋 Olá! Eu sou o Gabriel Mendes - Prozin
+<h3><code>gabriel@github ~ $ ./contribuicoes.sh</code></h3>
+<img src="./assets/contribuicoes.svg" width="860" alt="Calendário de contribuições do último ano, atualizado todo dia" />
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/gabriel_prozin/) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielmendesurl/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GabrielProzin)
+<br><br>
 
----
+<h3><code>gabriel@github ~ $ whoami</code></h3>
+<table>
+  <tr>
+    <td valign="top"><img src="./assets/retrato.svg" width="370" alt="Retrato do Gabriel em ASCII" /></td>
+    <td valign="top"><img src="./assets/cartao.svg" width="490" alt="Cientista de Dados em Goiânia. Python, SQL, Airflow, BigQuery e Power BI" /></td>
+  </tr>
+</table>
 
-💡 **Sobre mim:**  
-
-Sou graduado em Análise e Desenvolvimento de Sistemas e atualmente curso pós-graduação em Ciência de Dados.
-
-Tenho experiência prática com desenvolvimento backend e manipulação de dados, atuando com SQL para extração, análise e otimização de consultas em bancos de dados relacionais. Também trabalho com integração de dados estruturados e semi-estruturados, além de apoiar na análise de inconsistências e melhoria da qualidade dos dados.
-
-Minha experiência com desenvolvimento de sistemas me permite compreender todo o ciclo dos dados dentro das aplicações, desde a coleta e armazenamento até a análise e geração de insights para apoio à tomada de decisão.
-
-Atualmente estou aprofundando meus conhecimentos em:
-- SQL e bancos de dados relacionais
-- Análise e manipulação de dados com Python
-- Visualização de dados com Power BI
-- Machine Learning e análise estatística
-
-Também possuo experiência com desenvolvimento backend utilizando Node.js, APIs REST e aplicações web.
-
-🎯 Meu objetivo é atuar na área de dados, aplicando programação e análise para construir soluções orientadas por dados e apoiar decisões estratégicas.
-
----
-
-## 🚀 **Tecnologias que utilizo**
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Firebird-EF3E42?style=for-the-badge&logo=firebird&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-  <img src="https://img.shields.io/badge/Data%20Analysis-4CAF50?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </div>
 
----
+### Sobre mim
 
-## 📊 **Estatísticas do GitHub**
+Sou cientista de dados em Goiânia. O que mais gosto de fazer fica onde análise e engenharia se encontram: tirar os dados de uma API, deixar o pipeline rodando sozinho e conferir se o número do dashboard bate com a fonte.
 
-<div align="left">
-  <a href="https://github.com/GabrielProzin">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=GabrielProzin&count_private=true&include_all_commits=true&show_icons=true&theme=highcontrast&hide_border=false&show_owner=true&custom_title=Gabriel%20Mendes%20-%20Prozin's%20GitHub%20Stats"/>
-    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielProzin&theme=highcontrast&hide_border=false&&layout=compact"/>
-  </a>
-</div>
+Já construí pipelines em Python e Airflow que levam dados do Zendesk e do Jira ao BigQuery para 18 clientes, e migrei mais de 20 dashboards de KPIs para o Power BI. Sou formado em Análise e Desenvolvimento de Sistemas e faço pós em Ciência de Dados no IPOG.
 
----
+### Projetos
 
-## 📬 **Contato**
-📧 **E-mail:** gabrielalexandrino2004@gmail.com  
+| Projeto | O que faz | Com |
+| --- | --- | --- |
+| [**busca_vagas**](https://github.com/GabrielProzin/busca_vagas) | Projeto pessoal que automatiza a busca de vagas júnior de dados: ETL no GitHub Actions 5 vezes por dia, nota contra o currículo com embeddings, K-means para agrupar as vagas e envio de candidaturas pelo Gmail | Python · GitHub Actions · PostgreSQL · Next.js |
+| [**MiniProjectAirflow**](https://github.com/GabrielProzin/MiniProjectAirflow) | DAG semanal que extrai dados de uma API e salva os dados brutos e as tabelas tratadas, em Docker Compose com CeleryExecutor | Airflow · Docker · PostgreSQL · Redis |
+| [**credit-card-fraud-detection-ml-bi**](https://github.com/GabrielProzin/credit-card-fraud-detection-ml-bi) | Classificação de transações fraudulentas comparando Logistic Regression e Random Forest, com os resultados no Power BI | Pandas · Scikit-learn · Power BI |
+| [**wdalocacao**](https://github.com/GabrielProzin/wdalocacao) | Sistema web que tirou do papel as reservas e despesas de uma empresa de locação de mesas e cadeiras | Next.js · TypeScript · Firebase |
 
-Se quiser trocar uma ideia sobre tecnologia, desenvolvimento ou colaborar em projetos, fique à vontade para me chamar! 🚀
+### Tecnologias
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+### Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielmendesurl/)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-1f6f78?style=for-the-badge&logo=vercel&logoColor=white)](https://gmendes.vercel.app)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielalexandrino2004@gmail.com)
+
+<sub>Este perfil se monta sozinho: o retrato em ASCII, o cartão e o calendário são SVGs animados gerados pelos scripts em Python da pasta [`scripts/`](./scripts), e um GitHub Actions atualiza o calendário todo dia. Ideia do <a href="https://www.avivashishta.com/blog/build-animated-github-profile-readme">post do Avi Vashishta</a>.</sub>
