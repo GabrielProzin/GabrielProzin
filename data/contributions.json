@@ -1,7 +1,7 @@
 {
  "usuario": "GabrielProzin",
- "gerado_em": "2026-10-27T15:39:16+00:00",
- "total": 248,
+ "gerado_em": "2026-10-28T16:06:49+00:00",
+ "total": 254,
  "maior_sequencia": 39,
  "sequencia_atual": 1,
  "melhor_dia": {
@@ -1842,8 +1842,13 @@
   },
   {
    "data": "2026-10-27",
-   "nivel": 1,
-   "n": 1
+   "nivel": 4,
+   "n": 7
+  },
+  {
+   "data": "2026-10-28",
+   "nivel": 0,
+   "n": 0
   }
  ]
 }
