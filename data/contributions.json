@@ -1,14 +1,14 @@
 {
  "usuario": "GabrielProzin",
- "gerado_em": "2026-11-02T19:31:50+00:00",
- "total": 273,
+ "gerado_em": "2026-11-02T22:27:10+00:00",
+ "total": 274,
  "maior_sequencia": 39,
- "sequencia_atual": 0,
+ "sequencia_atual": 1,
  "melhor_dia": {
   "data": "2026-10-21",
   "n": 33
  },
- "dias_ativos": 89,
+ "dias_ativos": 90,
  "dias": [
   {
    "data": "2025-11-02",
@@ -1837,8 +1837,8 @@
   },
   {
    "data": "2026-11-02",
-   "nivel": 0,
-   "n": 0
+   "nivel": 1,
+   "n": 1
   }
  ]
 }
