@@ -12,7 +12,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-from terminal import MONO, janela, salvar
+from terminal import janela, salvar
 
 RAMPA = " .:-=+*cs#%@"  # vazio -> denso; num fundo escuro, denso = claro
 COLUNAS = 110
@@ -113,23 +113,12 @@ def svg(linhas: list[str]) -> str:
         )
     largura = larg + 2 * x0
     fim_retrato = y0 + len(linhas) * ALTURA_LINHA
-    altura = fim_retrato + 34
-    # linha de prompt no rodapé, como no terminal: aparece quando o retrato termina
-    fim_anim = 0.6 + len(linhas) * passo + dur
-    prompt = (
-        f'<g font-family="{MONO}" font-size="11"{"" if ESTATICO else " opacity=\"0\""}>'
-        + ("" if ESTATICO else f'<set attributeName="opacity" to="1" begin="{fim_anim:.2f}s"/>')
-        + f'<text x="{x0}" y="{fim_retrato + 22:.1f}"><tspan fill="#5fd1c7">gabriel@github</tspan><tspan fill="#8b949e">:~$</tspan>'
-        f'<tspan fill="#8b949e"> whoami </tspan><tspan fill="#e6edf3" font-weight="600">Gabriel Mendes</tspan></text>'
-        f'<rect x="{x0 + 261}" y="{fim_retrato + 12:.1f}" width="6.5" height="12" fill="#5fd1c7">'
-        + ("" if ESTATICO else '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>')
-        + "</rect></g>"
-    )
+    altura = fim_retrato + 14
     conteudo = (
         f"<defs>{''.join(defs)}</defs>"
         f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,\'Liberation Mono\',monospace" font-size="{FONTE}" fill="{COR}">'
         + "".join(corpo)
-        + "</g>" + prompt
+        + "</g>"
     )
     return janela(largura, altura, "gabriel@github: ~/retrato", conteudo)
 

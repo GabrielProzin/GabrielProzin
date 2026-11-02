@@ -1,11 +1,9 @@
 <div align="center">
 
-<h3><code>gabriel@github ~ $ ./contribuicoes.sh</code></h3>
 <img src="./assets/contribuicoes.svg" width="860" alt="Calendário de contribuições do último ano, atualizado todo dia" />
 
-<br><br>
+<br>
 
-<h3><code>gabriel@github ~ $ whoami</code></h3>
 <table>
   <tr>
     <td valign="top"><img src="./assets/retrato-pb.svg" width="370" alt="Retrato do Gabriel em ASCII" /></td>
@@ -48,5 +46,3 @@ Já construí pipelines em Python e Airflow que levam dados do Zendesk e do Jira
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielmendesurl/)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-1f6f78?style=for-the-badge&logo=vercel&logoColor=white)](https://gmendes.vercel.app)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielalexandrino2004@gmail.com)
-
-<sub>Este perfil se monta sozinho: o retrato em ASCII, o cartão e o calendário são SVGs animados gerados pelos scripts em Python da pasta [`scripts/`](./scripts), e um GitHub Actions atualiza o calendário todo dia. Ideia do <a href="https://www.avivashishta.com/blog/build-animated-github-profile-readme">post do Avi Vashishta</a>.</sub>
