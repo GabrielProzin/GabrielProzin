@@ -1,50 +1,15 @@
 {
  "usuario": "GabrielProzin",
- "gerado_em": "2026-11-21T16:49:29+00:00",
- "total": 274,
- "maior_sequencia": 39,
+ "gerado_em": "2026-11-22T17:11:33+00:00",
+ "total": 253,
+ "maior_sequencia": 32,
  "sequencia_atual": 0,
  "melhor_dia": {
   "data": "2026-10-21",
   "n": 33
  },
- "dias_ativos": 90,
+ "dias_ativos": 83,
  "dias": [
-  {
-   "data": "2025-11-16",
-   "nivel": 1,
-   "n": 1
-  },
-  {
-   "data": "2025-11-17",
-   "nivel": 2,
-   "n": 6
-  },
-  {
-   "data": "2025-11-18",
-   "nivel": 2,
-   "n": 6
-  },
-  {
-   "data": "2025-11-19",
-   "nivel": 1,
-   "n": 2
-  },
-  {
-   "data": "2025-11-20",
-   "nivel": 1,
-   "n": 1
-  },
-  {
-   "data": "2025-11-21",
-   "nivel": 1,
-   "n": 1
-  },
-  {
-   "data": "2025-11-22",
-   "nivel": 1,
-   "n": 4
-  },
   {
    "data": "2025-11-23",
    "nivel": 1,
@@ -1862,6 +1827,11 @@
   },
   {
    "data": "2026-11-21",
+   "nivel": 0,
+   "n": 0
+  },
+  {
+   "data": "2026-11-22",
    "nivel": 0,
    "n": 0
   }
